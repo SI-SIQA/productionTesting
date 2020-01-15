@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "gDmUWy2Dbs0dGecSpDq8Wq",
+    "name" : "Demo",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Streaming Ingestion capability",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
