@@ -1,0 +1,90 @@
+{
+  "objectInfo" : {
+    "id" : "0mZEvhCMEPPlISOmJJWbuW",
+    "name" : "Amazon Kinesis Streams to S3 with PythonTx  and Combiner",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "f72af671-1996-431d-82fe-6d71a909a7b2"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "gDmUWy2Dbs0dGecSpDq8Wq"
+      }, {
+        "name" : "version",
+        "value" : "8"
+      } ],
+      "additionalInfo" : {
+        "description" : "Amazon Kinesis Streams  to ADLS gen 2 with Python transformation.\nUsing python tx:\nPerform lookup on the local file as csv (will have customer id and phone no). \nAppend phone no to the message and write to ADLS gen2 target.",
+        "contentType" : null,
+        "documentState" : "Running"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "8SbEgQUTGcPkzLezTRDeAe",
+    "name" : "IE_KinesisStreams_r33janPatch",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SZL0B00000000003B"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "491fYGnjciRcXa28wtMN0y",
+    "name" : "S3V2",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SZL0B000000000022"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "cloud",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "ap9KiaJw4esfR1bChhf9gs",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SZL2500000000000C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
