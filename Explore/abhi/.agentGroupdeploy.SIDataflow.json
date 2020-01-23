@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "9nrgO2YXgQGdAjVZC92i4R",
-    "name" : "oldRuuningdataFlow",
+    "id" : "8WOyoAfxcmUiFq5xt6Fr4V",
+    "name" : "agentGroupdeploy",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,17 +9,17 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "5f7b21b5-37e9-4024-8e74-d511cbfe0b58"
+        "repoHandle" : "42f9d23b-61f6-44f0-8659-1236aeb01a7f"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "guT1Hxxk9eidKHR7skfEgl"
       }, {
         "name" : "version",
-        "value" : "3"
+        "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "test_abhi",
         "contentType" : "Binary",
         "documentState" : "Undeployed"
       }
@@ -27,6 +27,26 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
+    "id" : "hf72z7n450Bi9HKBM3xzO4",
+    "name" : "SI_GROUP",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SZL25000000000005"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "2uAf8VtqkXgbdY0Iw104Oj",
     "name" : "si_localKafka",
     "type" : "Connection",
@@ -37,26 +57,6 @@
       },
       "repoInfo" : {
         "repoHandle" : "010SZL0B00000000001B"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "3BlvGjQnBOehhMyNzFSd8v",
-    "name" : "INsiqarh7401",
-    "type" : "AGENT",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010SZL08000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
